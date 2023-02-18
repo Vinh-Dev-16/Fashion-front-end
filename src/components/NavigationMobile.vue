@@ -8,18 +8,18 @@
         class="block
          px-3 py-1 rounded-3xl mt-8 text-[14px] focus:border-lime-500 focus:outline-none border-solid border-[1px] border-black relative">
       <button
-        class="absolute top-[1px] right-[64px] md:right-[64px]  lg:right-[64px] w-7 h-7 rounded-[50%] bg-slate-180 "><i
+        class="absolute top-[1px] right-[64px] md:right-[64px]  lg:right-[64px] w-7 h-7 rounded-[50%] bg-slate-300 "><i
           class="fa-solid fa-magnifying-glass  text-base "></i></button>
     </div>
     <!-- Thanh items -->
 
     <div class="mt-[calc((100%-129px)/2)]">
       <ul class="w-full">
-        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2">Home</li>
-        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2">Woman</li>
-        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2">Man</li>
-        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2">Perfume</li>
-        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2">Shoe</li>
+        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2 block py-[5px]">Home</li>
+        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2 block py-[5px]">Woman</li>
+        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2 block py-[5px]">Man</li>
+        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2 block py-[5px]">Perfume</li>
+        <li class="cursor-pointer text-[18px] hover:bg-slate-300 transition-colors duration-500 mb-2 block py-[5px]">Shoe</li>
       </ul>
     </div>
 

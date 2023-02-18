@@ -12,29 +12,31 @@
                 </svg>
 
             </div>
-            <router-link to="/">
-                <i class="fa-solid fa-cart-shopping ml-2 mr-2 lg:text-2xl lg:mr-2 "></i><span
-                    class="text-lime-500 text-2xl lg:text-3xl font-medium">F<strong
-                        class="text-gray-600 text-xl lg:text-2x1 font-thin">ahsion</strong></span>
+            <router-link to="/" class="w-[142px] flex">
+                <img :src="logoCart" class="w-[30px] h-[30px] mr-[5px]" />
+               <span
+                    class="text-lime-500 text-2xl lg:text-[35px] font-[550px] font-[julee]"> F<strong
+                        class="text-gray-600 text-xl lg:text-2x1 font-sans">ahsion</strong></span>
+               
             </router-link>
 
         </div>
         <div class="grid col-start-3 col-end-7" v-if="!mobileView">
             <ul class="w-full flex flex-row justify-between items-center">
                 <li><button
-                        class="text-lg inline-block px-[20px] py-[7px] active:text-lime-500 after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Home</button>
+                        class="text-lg text-[#44af59] inline-block px-[20px] py-[7px] active:text-lime-500 after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Home</button>
                 </li>
                 <li><button
-                        class="text-lg inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Woman</button>
+                        class="text-lg text-[#44af59] inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Woman</button>
                 </li>
                 <li><button
-                        class="text-lg inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Man</button>
+                        class="text-lg text-[#44af59] inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Man</button>
                 </li>
                 <li><button
-                        class="text-lg inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Perfume</button>
+                        class="text-lg text-[#44af59] inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Perfume</button>
                 </li>
                 <li><button
-                        class="text-lg inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Shoe</button>
+                        class="text-lg text-[#44af59] inline-block px-[20px] py-[7px] after:border-b-2 after:w-0 after:border-black after:block after:transition-all hover:after:w-1/2 after:text-lime-500">Shoe</button>
                 </li>
             </ul>
         </div>
@@ -59,6 +61,7 @@ export default {
         return {
             mobileView: true,
             showNav: false,
+            logoCart: 'logoCart.png'
         }
     },
     methods: {
@@ -75,7 +78,8 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Press+Start+2P&family=Rubik:wght@300&display=swap');
 .open {
     transform: translateX(300px);
 }
